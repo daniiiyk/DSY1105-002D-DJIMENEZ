@@ -28,7 +28,7 @@ fun HomeScreen() {
     //inicio
     Scaffold(
         topBar = {
-            TopAppBar(title = { Text("Mi primera APP") })
+            TopAppBar(title = { Text("Mi primera APP \uD83C\uDF53\uD83D\uDDFF+") })
         }
     ) { innerPadding ->
         Column(
@@ -46,7 +46,7 @@ fun HomeScreen() {
                 Text("Presióname")
             }
 
-            // logo
+            // poner logo
             Image(
                 painter = painterResource(id = R.drawable.logo),
                 contentDescription = "Logo App",
